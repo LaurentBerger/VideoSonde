@@ -124,7 +124,7 @@ void GestionCrayon(int evt, int x, int y, int type, void *extra)
     VideoUI *v=(VideoUI*) extra;
     if (type == EVENT_FLAG_LBUTTON)
     {
-        v->v.push_back(Point(x, y));
+        v->v.push_back(Point(x/2, y/2));
     }
 }
 
